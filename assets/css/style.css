@@ -113,12 +113,13 @@ li {
   main styling starts here
 =================================*/
 
-
-
 main { margin: 50px auto; }
 .wrapper { text-align: center; }
 
+ul { width: 100%; }
+
 ul li {
+  width: 100%;
   padding: 10px;
   margin: 15px auto;
   border-left: 4px solid #494949;

@@ -2,6 +2,8 @@ $(document).ready(function() {
     // declare variables
     var n = 6;
     var content = '';
+    var list = document.createElement('ul');
+    $('.load').before(list)
 
     // calling fetch six data
     fetchSixData(n)
@@ -34,7 +36,7 @@ $(document).ready(function() {
             </li>
         `;
 
-        $('ul').html(content)
+        $('.wrapper ul').html(content)
     }
 
     // load more data functionality
