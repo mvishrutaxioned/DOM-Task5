@@ -18,11 +18,24 @@ $(document).ready(function() {
             }
         }
 
+        // scroll to bottom of the page
         $('html, body').animate({
             scrollTop: $(document).height()
-        }, 'slow');
+        }, 'fast');
     }
 
+    // display list function
+    function displayList(data) {
+        content += `
+            <li>
+              <p><strong>id</strong> : ${data.id}</p>
+              <p><strong>title</strong> : ${data.title}</p>
+              <p><strong>body</strong> : ${data.body}</p>
+            </li>
+        `;
+
+        $('ul').html(content)
+    }
 
     // load more data functionality
     $('.load').click((e) => {
