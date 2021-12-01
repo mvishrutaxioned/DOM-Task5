@@ -108,18 +108,6 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
@@ -127,33 +115,36 @@ li {
 
 
 
+main { margin: 50px auto; }
+.wrapper { text-align: center; }
 
+ul li {
+  padding: 10px;
+  margin: 15px auto;
+  border-left: 4px solid #494949;
+  background: #f6f6f6;
+  text-align: left;
+}
 
+ul li p {
+  margin: 5px auto;
+  font-size: 14px;
+}
 
+.load {
+  padding: 10px 15px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  transition: .5s ease;
+}
 
+.load:hover {
+  background: #000;
+  color: #fff;
+}
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
